@@ -88,7 +88,51 @@ Now, the error section has been removed from the template. In the specified dire
 2. **Set Execution Permissions**: Make the script executable by running the command `chmod +x script_name.sh` in the terminal, replacing `script_name.sh` with the actual name of your script file.
 
 3. **Execute the Script**: Run the script by executing `./script_name.sh` in the terminal, replacing `script_name.sh` with the actual name of your script file.
+Certainly! Here are the instructions in English:
 
+### 1. Download the Script:
+
+Download the script from your GitHub repository. You can use either `wget` or `curl`:
+
+```bash
+wget https://raw.githubusercontent.com/your-username/X-UI-Log-Analyzer-Traffic-Monitor-/main/X-UI-Log-Analyzer.sh
+```
+
+or
+
+```bash
+curl -O https://raw.githubusercontent.com/your-username/X-UI-Log-Analyzer-Traffic-Monitor-/main/X-UI-Log-Analyzer.sh
+```
+
+### 2. Move the Script to the Correct Path:
+
+Ensure that the script is located in `/usr/local/x-ui/` using the following command:
+
+```bash
+sudo mv X-UI-Log-Analyzer.sh /usr/local/x-ui/
+```
+
+### 3. Set Execution Permissions:
+
+Make the script executable by running the following command:
+
+```bash
+sudo chmod +x /usr/local/x-ui/X-UI-Log-Analyzer.sh
+```
+
+### 4. Run the Script:
+
+Now you can execute the script:
+
+```bash
+sudo /usr/local/x-ui/X-UI-Log-Analyzer.sh
+```
+
+### 5. Add to Startup (Optional):
+
+If you want the script to run automatically on system startup, you need to add it to system settings. Depending on your system, this can be done by adding the command to the `.bashrc` or `rc.local` file. The steps may vary based on your distribution.
+
+With these steps, your script is installed next to `access.log` in `/usr/local/x-ui/` and can be executed using the provided commands.
 ### Additional Notes:
 
 - This script continuously monitors the access.log file and processes the last 3 lines to extract IP addresses and retrieve domain information.
