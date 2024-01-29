@@ -44,8 +44,7 @@ Feel free to adjust the wording as needed!
 
 If you encounter any further issues or need more details, please provide additional information.
 Now, the error section has been removed from the template. In the specified directory (/usr/local/x-ui/), a file named access.log will be created to store the data.
-"Alright, now let's move on to step two, which is live monitoring of traffic logs for each user. Edit and translate this."
-
+"Alright, now let's move on to step two, which is live monitoring of traffic logs for each user. 
 ---
 
 ### Pre-requisites for the Script Execution:
