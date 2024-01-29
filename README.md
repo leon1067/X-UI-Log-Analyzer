@@ -115,9 +115,12 @@ Certainly! Here are the instructions in English:
 ### 1. Download the Script:
 
 Download the script from your GitHub repository. You can use either `wget` or `curl`:
+cd /usr/local/x-ui/
 
 ```bash
-git clone https://github.com/leon1067/X-UI-Log-Analyzer.git
+
+sudo wget https://raw.githubusercontent.com/leon1067/X-UI-Log-Analyzer/main/log.sh -P /usr/local/x-ui/
+
 
 
 ```
@@ -127,7 +130,7 @@ git clone https://github.com/leon1067/X-UI-Log-Analyzer.git
 Ensure that the script is located in `/usr/local/x-ui/` using the following command:
 
 ```bash
-sudo mv X-UI-Log-Analyzer.sh /usr/local/x-ui/
+sudo mv log.sh /usr/local/x-ui/
 ```
 
 ### 3. Set Execution Permissions:
@@ -135,7 +138,8 @@ sudo mv X-UI-Log-Analyzer.sh /usr/local/x-ui/
 Make the script executable by running the following command:
 
 ```bash
-sudo chmod +x /usr/local/x-ui/X-UI-Log-Analyzer.sh
+sudo chmod +x /usr/local/x-ui/log.sh
+
 ```
 
 ### 4. Run the Script:
@@ -143,7 +147,7 @@ sudo chmod +x /usr/local/x-ui/X-UI-Log-Analyzer.sh
 Now you can execute the script:
 
 ```bash
-sudo /usr/local/x-ui/X-UI-Log-Analyzer.sh
+sudo /usr/local/x-ui/log.sh
 ```
 
 ### 5. Add to Startup (Optional):
