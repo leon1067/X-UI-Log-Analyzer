@@ -117,7 +117,7 @@ Certainly! Here are the instructions in English:
 Download the script from your GitHub repository. You can use either `wget` or `curl`:
 
 ```bash
-git clone https://github.com/leon1067/X-UI-Log-Analyzer-Traffic-Monitor-.git
+git clone https://github.com/leon1067/X-UI-Log-Analyzer.sh.git
 
 ```
 
