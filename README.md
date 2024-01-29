@@ -117,13 +117,8 @@ Certainly! Here are the instructions in English:
 Download the script from your GitHub repository. You can use either `wget` or `curl`:
 
 ```bash
-wget https://raw.githubusercontent.com/your-username/X-UI-Log-Analyzer-Traffic-Monitor-/main/X-UI-Log-Analyzer.sh
-```
+git clone https://github.com/leon1067/X-UI-Log-Analyzer-Traffic-Monitor-.git
 
-or
-
-```bash
-curl -O https://raw.githubusercontent.com/your-username/X-UI-Log-Analyzer-Traffic-Monitor-/main/X-UI-Log-Analyzer.sh
 ```
 
 ### 2. Move the Script to the Correct Path:
