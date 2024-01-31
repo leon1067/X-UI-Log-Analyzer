@@ -128,9 +128,6 @@ sudo wget https://raw.githubusercontent.com/leon1067/X-UI-Log-Analyzer/main/log.
 
 Ensure that the script is located in `/usr/local/x-ui/` using the following command:
 
-```bash
-sudo mv log.sh /usr/local/x-ui/
-```
 
 ### 3. Set Execution Permissions:
 
