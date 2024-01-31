@@ -28,12 +28,22 @@ Feel free to adjust the wording as needed!
 
 2. Locate the `log` section in the template, which looks like the following:
 
+2-1.Remove the parameter:
+
+{
+  "log": {
+    "loglevel": "warning",
+    "error": "./error.log"
+
+2-2.Replace the parameter:
+
+
     ```json
     "log": {
         "loglevel": "warning",
         "access": "/usr/local/x-ui/access.log",
         "error": "/usr/local/x-ui/error.log"
-    }
+   
     ```
 
 3. Ensure the path specified for `access.log` is correct and that the file is being created at that location.
