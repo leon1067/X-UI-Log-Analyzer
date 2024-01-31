@@ -29,12 +29,12 @@ Feel free to adjust the wording as needed!
 2. Locate the `log` section in the template, which looks like the following:
 
 2-1.Remove the parameter:
-
+```json
 {
   "log": {
     "loglevel": "warning",
     "error": "./error.log"
-
+ ```
 2-2.Replace the parameter:
 
 
