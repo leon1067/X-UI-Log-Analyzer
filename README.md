@@ -38,11 +38,13 @@ Feel free to adjust the wording as needed!
 2-2.Replace the parameter:
 
 
-    ```json
-    "log": {
-        "loglevel": "warning",
-        "access": "/usr/local/x-ui/access.log",
-        "error": "/usr/local/x-ui/error.log"
+     ```
+     {
+  "log": {
+    "loglevel": "warning",
+    "access": "/usr/local/x-ui/access.log",
+    "error": "/usr/local/x-ui/error.log"
+
    
     ```
 
