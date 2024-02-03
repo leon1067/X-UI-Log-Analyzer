@@ -44,8 +44,6 @@ Feel free to adjust the wording as needed!
     "loglevel": "warning",
     "access": "/usr/local/x-ui/access.log",
     "error": "/usr/local/x-ui/error.log"
-
-   
     ```
 
 3. Ensure the path specified for `access.log` is correct and that the file is being created at that location.
