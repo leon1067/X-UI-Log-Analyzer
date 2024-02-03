@@ -36,9 +36,7 @@ Feel free to adjust the wording as needed!
     "error": "./error.log"
  ```
 2-2.Replace the parameter:
-
-
-    ```json
+ ```json
 {
   "log": {
     "loglevel": "warning",
